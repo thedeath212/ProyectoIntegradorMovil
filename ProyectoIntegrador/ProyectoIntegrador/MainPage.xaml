@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoIntegrador.MainPage"
+                         BackgroundColor="#ffffff">
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="20" Spacing="20">
+        <!-- Fondo blanco de toda la página -->
+        <Image Source="cirujano.png" HeightRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+
+        <Frame BackgroundColor="#b3e0ff" CornerRadius="15" Padding="20" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"
+               HeightRequest="250" WidthRequest="250">
+
+            <StackLayout VerticalOptions="FillAndExpand">
+                <Entry Placeholder="Usuario" x:Name="UsuarioEntry"
+                       TextColor="#333333"
+                       PlaceholderColor="#b2b2b2"
+                       FontSize="18" 
+                    BackgroundColor="#ffffff"
+                       Margin="0,0,0,15"/>
+
+
+                <Entry Placeholder="Contraseña" IsPassword="True" x:Name="ContraseñaEntry"
+                       TextColor="#333333"
+                       PlaceholderColor="#b2b2b2"
+                       FontSize="18"
+                        BackgroundColor="#ffffff"
+                       Margin="0,0,0,15"/>
+
+                <Button Text="Iniciar Sesión" x:Name="btn_Login" Clicked="btn_Login_Clicked"
+                        BackgroundColor="#007bff"
+                        TextColor="#ffffff"
+                        CornerRadius="15"
+                        FontSize="18"
+                            Margin="0,0,0,15"/>
+
+                <Label Text="¿Olvidaste tu contraseña?" TextColor="#007bff" HorizontalOptions="CenterAndExpand">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage> 

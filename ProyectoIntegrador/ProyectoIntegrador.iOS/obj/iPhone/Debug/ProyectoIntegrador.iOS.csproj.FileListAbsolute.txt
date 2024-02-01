@@ -1,0 +1,13 @@
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\optimized\
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\ProyectoIntegrador.iOS.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\ProyectoIntegrador\ProyectoIntegrador\ProyectoIntegrador.iOS\obj\iPhone\Debug\ProyectoIntegrador.iOS.csproj.CoreCompileInputs.cache

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoIntegrador.Usuarios.UsuariosPage"
+             xmlns:pages="clr-namespace:ProyectoIntegrador.Usuarios">
+    <!-- Contenido principal (Detail) -->
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <ContentPage Title="">
+                    <StackLayout Padding="20" Spacing="10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+                        <Image Source="Logo.png"
+                               HeightRequest="100"
+                               HorizontalOptions="CenterAndExpand" />
+
+                        <Label Text="Clinic-A: Tu Salud, Tu Prioridad"
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               TextColor="#007BFF"
+                               FontAttributes="Bold" />
+
+                        <Label Text="¡Bienvenido a Clinic-A! Tu destino de confianza para el cuidado de la salud en la palma de tu mano."
+                               FontSize="Medium"
+                               HorizontalOptions="Center" />
+
+                        <Label Text="Consulta Médica en Línea: Accede a nuestros servicios médicos estés donde estés. Consulta a nuestros médicos expertos desde tu dispositivo móvil."
+                               FontSize="Medium"
+                               HorizontalOptions="Center" />
+                    </StackLayout>
+                </ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menú">
+            <StackLayout Padding="20" Spacing="10">
+                <!-- Elementos de menú -->
+                <Button Text="Home" Clicked="OnOption1Clicked" FontSize="Medium" />
+                <Button Text="Horarios" Clicked="OnOption2Clicked" FontSize="Medium" />
+                <Button Text="Facturas" Clicked="OnOption3Clicked" FontSize="Medium" />
+                <Button Text="Citas Médicas" Clicked="OnOption4Clicked" FontSize="Medium" />
+                <Button Text="Perfil" Clicked="OnOption5Clicked" FontSize="Medium" />
+            </StackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+</FlyoutPage>

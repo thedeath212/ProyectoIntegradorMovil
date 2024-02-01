@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoIntegrador.Cruds.CrudsUsuariosView">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Padding="10">
+            <Label Text="Usuarios Registrados" FontSize="Title" HorizontalOptions="Center" />
+
+            <ListView x:Name="usuariosListView" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" Text="{Binding Nombre}" FontAttributes="Bold"/>
+                                <Label Grid.Column="1" Text="{Binding Apellido}" />
+                                <Label Grid.Column="2" Text="{Binding Cedula}" />
+                                <Label Grid.Column="3" Text="{Binding Telefono}" />
+                                <Label Grid.Column="4" Text="{Binding Correo}" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Agregar Usuario" x:Name="Agregar" Clicked="Agregar_Clicked" />
+                <Button Text="Eliminar Usuario" Clicked="EliminarUsuario_Clicked" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Modificar Usuario" Clicked="ModificarUsuario_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>   

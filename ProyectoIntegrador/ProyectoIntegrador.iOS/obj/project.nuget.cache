@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "z22RUWn7cC0UTO09jltIjFYUlFCu27iKr1EZ5f8AGUKDjjT1MdSVfQn0uo+pyGrC4jWWrA01Ja9ngMk1vzrmnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matei\\source\\repos\\ProyectoIntegrador\\ProyectoIntegrador\\ProyectoIntegrador.iOS\\ProyectoIntegrador.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matei\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.13\\com.airbnb.ios.lottie.2.5.13.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

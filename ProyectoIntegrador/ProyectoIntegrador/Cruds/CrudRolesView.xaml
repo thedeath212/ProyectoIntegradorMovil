@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoIntegrador.Cruds.CrudRolesView">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Padding="10">
+            <Label Text="Roles Registrados" FontSize="Title" HorizontalOptions="Center" />
+
+            <ListView x:Name="rolesListView" HasUnevenRows="True">
+                <ListView.Header>
+                    <Grid BackgroundColor="#e0e0e0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="0" Text="Descripción" FontAttributes="Bold" Margin="10,0,0,0" />
+                        <Label Grid.Column="1" Text="Estado" FontAttributes="Bold" Margin="0,0,10,0" />
+                    </Grid>
+                </ListView.Header>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" Text="{Binding Descripcion}" Margin="10,0,0,0" />
+                                <Label Grid.Column="1" Text="{Binding Estado}" Margin="0,0,10,0" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Agregar Rol" x:Name="Agregar" Clicked="AgregarRol_Clicked" />
+                <Button Text="Eliminar Rol" Clicked="EliminarRol_Clicked" />
+                <Button Text="Modificar Rol" Clicked="ModificarRol_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

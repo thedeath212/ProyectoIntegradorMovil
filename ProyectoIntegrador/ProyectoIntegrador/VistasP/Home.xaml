@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoIntegrador.VistasP.Home">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+            <Image Source="Logo.png"
+            HeightRequest="100"
+            HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Clinic-A: Tu Salud, Tu Prioridad"
+            FontSize="Large"
+            HorizontalOptions="Center"
+            TextColor="#007BFF"
+            FontAttributes="Bold" />
+
+            <Label Text="¡Bienvenido a Clinic-A! Tu destino de confianza para el cuidado de la salud en la palma de tu mano."
+            FontSize="Medium"
+            HorizontalOptions="Center" />
+
+            <Label Text="Consulta Médica en Línea: Accede a nuestros servicios médicos estés donde estés. Consulta a nuestros médicos expertos desde tu dispositivo móvil."
+            FontSize="Medium"
+            HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
